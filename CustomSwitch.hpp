@@ -40,22 +40,3 @@
 #define Case(...) BOOST_PP_IIF(                               \
     BOOST_PP_GREATER(BOOST_PP_VARIADIC_SIZE(__VA_ARGS__), 2), \
         FallthroughCase, SimpleCase)(__VA_ARGS__)
-
-/* int main() */
-/* { */
-/* 	int a{89}; */
-/* 	Switch(a, */
-/* 		   Case(1,5, */
-/* 				std::cout << "a") */
-/* 		   Case(2, */
-/* 				std::cout << "b") */
-/* 		   Case(3,7, */
-/*                 89, */
-/*                 78, */
-/* 				std::cout << "c") */
-/* 		   Case(4, */
-/* 				std::cout << "d") */
-/* 		   Default(std::cout << "e")); */
- 
-/* 	return 0; */
-/* } */
