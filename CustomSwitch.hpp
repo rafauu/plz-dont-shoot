@@ -1,7 +1,6 @@
 #include <iostream>
-#include <boost/preprocessor/comparison/greater.hpp>
-#include <boost/preprocessor/seq/pop_back.hpp>
 #include <boost/preprocessor/variadic/to_seq.hpp>
+#include <boost/preprocessor/seq/pop_back.hpp>
 #include <boost/preprocessor/seq/for_each.hpp>
 #include <boost/preprocessor/seq/reverse.hpp>
 
