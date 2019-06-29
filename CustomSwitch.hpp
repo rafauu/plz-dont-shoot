@@ -25,7 +25,7 @@
 #define Default(x) default: x; break;
 
 #define Switch(condition,...) \
-	switch(condition)         \
-	{                         \
-	    __VA_ARGS__           \
-	}
+    switch(condition)         \
+    {                         \
+        __VA_ARGS__           \
+    }
